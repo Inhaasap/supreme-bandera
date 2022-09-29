@@ -13,23 +13,20 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="preload" href="./img/gus-anim.gif" as="img">
+    <link rel="preload" href="./img/gus-anim.gif" alt="img">
 
   </head>
-  <body>
-
-    <section class="main-page">
+    <body>
+      <section class="main-page">
         <div class="wrapper">
-        <header>
+          <header>
             <img src="./img/logo.svg" alt="Логотип">
-            <p class="logo-text">
-                Школа підготовки<br> IT-спеціалістів
-            </p>
-        </header>
+            <p class="logo-text">Школа підготовки<br> IT-спеціалістів</p>
+          </header>
 
         <div class="main-page-row">
 
-        <div class="banderogus-conteiner" >
+        <div class="banderogus-conteiner">
 
           <h3 class="banderogus-greeting">Доброго вечора, ми з України</h3>
           <h2 class="banderogus-start-text">На старт. Увага. Полетіли!</h2>
@@ -41,13 +38,8 @@
 
           <button class="banderogus-launch" id="open-form-modal-btn">Запустити гуся</button>
 
-        </div>
-
-        <img src="./img/gus.svg" alt="banderogus" class="banderogus-image">
-
-      </div>
-    </section>
-    
+        </div> <img src="./img/gus.svg" alt="banderogus" class="banderogus-image"></div> 
+      </section>
     <section class="gus-facts">
       <img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
 
@@ -57,6 +49,7 @@
       </p>
 
       <div class="gus-facts-container">
+
         <div class="gus-fact-item">
           <img src="./img/gus1.svg" alt="gus 1" class="gus-fact-img">
           <h4 class="gus-fact-title">Система навігації</h4>
@@ -73,33 +66,27 @@
           <img src="./img/gus3.svg" alt="gus 3" class="gus-fact-img">
           <h4 class="gus-fact-title">Байракрила</h4>
           <p class="gus-fact-decr">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі» кілометрів</p>
-          
+          </div>
       </div>
-
-      
-      
-
-
     </section>
+      <footer class="victory-footer">
+        <div class="victory-bgd">
+          <img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
+          <h4 class="victory-title">Перемога завжди за нами!</h4>
+          <p class="victory-descr">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так необхідна</p>
+        </div>
+      </footer>
 
-   <footer class="victory-footer">
-    <div class="victory-bgd">
-      <img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
-      <h4 class="victory-title">Перемога завжди за нами!</h4>
-      <p class="victory-descr">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так необхідна</p>
-    </div>
-   </footer>
+      <div class="modal-bgd" id="form-modal"> </div>
 
-   <div class="modal-bgd" id="form-modal">
+        <div class="modal-form-container">
+        <button class="close-btn">x</button>
 
-    <div class="modal-form-container">
-    <button class="close-btn">x</button>
+        <form action="#" class="modal-form" data-netlify="true" id="form">
+        <img src="./img/trezub.svg" alt="ukr logo">
 
-    <form action="#" class="modal-form" data-netlify="true" id="form">
-      <img src="./img/trezub.svg" alt="ukr logo">
-
-      <h4 class="modal-form-title">Поділися, будь ласка, поштою</h4>
-      <p class="modal-form-descr">та запиши гуся до бандерозагону</p>
+        <h4 class="modal-form-title">Поділися, будь ласка, поштою</h4>
+        <p class="modal-form-descr">та запиши гуся до бандерозагону</p>
 
       <div class="modal-form-field">
         <label for="user-name" class="modal-field-name">Ім'я</label>
@@ -108,7 +95,7 @@
 
       <div class="modal-form-field">
         <label for="user-email" class="modal-field-name">Email</label>
-        <input type="email" class="modal-field-input" id"user-email" name="Email">
+        <input type="email" class="modal-field-input" id="user-email" name="Email">
       </div>
 
       <button class="modal-form-btn" id="launch-btn">Запустити гуся</button>
@@ -116,11 +103,9 @@
     </form>
   </div>
 
-   </div>
-
    <div class="modal-bgd" id="success-modal">
 
-    <div action="#" class="modal-form modal-form-container">
+    <div action="#" class="modal-form-container">
       <button class="close-btn">x</button>
       <img src="./img/trezub.svg" alt="ukr logo">
 
